@@ -60,6 +60,7 @@ h2{
 .column.sideR {
     width: 20%;
     text-align: center;
+    overflow: scroll;
 }
 /* Middle column */
 .column.middle {
@@ -91,3 +92,10 @@ img{
     font-size: 30px;
     overflow: scroll;
 }
+th{
+    padding: 5px;
+    text-decoration: underline;
+ }
+ tr{
+    font-size: 12px;
+ }

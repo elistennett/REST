@@ -2,6 +2,11 @@ h1{
     font: color #5e6572;
     font-family: 'Armata', sans-serif;
     text-align: center;
+    font-size: 60px;
+}
+
+h2{
+    text-align: Left;
     font-size: 48px;
     text-decoration: underline;
 }
@@ -19,7 +24,7 @@ body{
     width:15%;
     height: 800px;
     margin: 20px;
-    text-align: auto;
+    text-align: left;
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
@@ -36,7 +41,7 @@ a{
     width:15%;
     height: 200px;
     margin: 20px;
-    text-align: auto;
+    text-align: left;
     opacity: 0.5;
     filter: alpha(opacity=50);
     position: relative;
@@ -59,6 +64,27 @@ a{
     opacity: 0.5;
     filter: alpha(opacity=50);
     position: relative;
+    left: 1200px;
+    top: -1570px;
+}
+.main-post{
+    background-color: #eef1ef;
+    font-size: 30px;
+    font-family: 'Share', cursive;
+    color: #7D98A1;
+    border-style: solid;
+    padding: 20px;
+    width:45%;
+    height: 800px;
+    margin: center;
+    margin: 20px;
+    text-align: left;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    position: relative;
+    left: 400px;
+    top: -1230px;
+}
     left: 1050px;
     top: -870px;
 }
@@ -67,7 +93,10 @@ img{
 }
 footer{
     text-align:center;
+    position: fixed;
+
 }
 ul{
     list-style: none;
 }
+

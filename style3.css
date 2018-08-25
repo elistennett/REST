@@ -6,7 +6,7 @@ body{
 .header {
     background-color: #F1F1F1;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     font-family: 'Armata', sans-serif;
     font-size: 60px;
 }
@@ -36,7 +36,6 @@ body{
 /* Create three unequal columns that floats next to each other */
 .column {
     float: left;
-    padding: 10px;
     background-color: #eef1ef;
     font-family: 'Share', cursive;
     font-size: 30px;
@@ -50,11 +49,19 @@ body{
 /* Left and right column */
 .column.side {
     width: 20%;
+    padding: 10px;
+    height: 500px;
+    text-align: center;
 }
-
+.column.sideR {
+    width: 20%;
+    text-align: center;
+}
 /* Middle column */
 .column.middle {
     width: 50%;
+    height: 800px;
+    text-align: center;
 }
 
 /* Clear floats after the columns */
@@ -69,4 +76,8 @@ body{
     .column.side, .column.middle {
         width: 100%;
     }
+}
+
+img{
+    height:150px;
 }

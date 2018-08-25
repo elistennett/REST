@@ -1,7 +1,8 @@
 h1{
     font: color #5e6572;
-    font-family: 'Audiowide', cursive;
+    font-family: 'Armata', sans-serif;
     text-align: center;
+    font-size: 48px;
 }
 body{
     background-color: #a9b4c2;
@@ -9,7 +10,8 @@ body{
 }
 .sidebar-main{
     background-color: #eef1ef;
-    font-size: 48px;
+    font-family: 'Share', cursive;
+    font-size: 30px;
     color: #7D98A1;
     border-style: solid;
     padding: 20px;
@@ -23,17 +25,20 @@ body{
 }
 .sidebar-bio{
     background-color: #eef1ef;
-    font-size: 48px;
+    font-size: 30px;
+    font-family: 'Share', cursive;
     color: #7D98A1;
     border-style: solid;
     padding: 20px;
     width:15%;
     height: 300px;
-    margin: center-left;
+    margin: right;
     margin: 20px;
-    align-content: center;
+    text-align: center;
     opacity: 0.5;
     filter: alpha(opacity=50);
+    position: relative;
+    left: 1200px;
 }
 .sidebar-comment{
     background-color: #eef1ef;
@@ -48,4 +53,5 @@ body{
     align-content: center;
     opacity: 0.5;
     filter: alpha(opacity=50);
+
 }

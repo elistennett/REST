@@ -133,6 +133,9 @@ function commentDataAuthor (obj){
 
 }
 // console.log(commentDataAuthor(blogData));
+//commentDataAuthor(blogData);
+
+
 ///////////////////////////////////////////////////////////////////////////
 
 
@@ -166,6 +169,7 @@ function commentDataDate (obj){
 
 }
 // console.log(commentDataDate(blogData));
+//commentDataDate(blogData);
 ///////////////////////////////////////////////////////////////////////////////////
 
 
@@ -199,6 +203,7 @@ function commentDataLikeCount (obj){
 
 }
 // console.log(commentDataLikeCount(blogData));
+// commentDataLikeCount(blogData);
 ///////////////////////////////////////////////////////////////////////////////////
 
 
@@ -232,6 +237,7 @@ function commentDataContent (obj){
 
 }
 // console.log(commentDataContent(blogData));
+//commentDataContent(blogData);
 ///////////////////////////////////////////////////////////////////////////////////
 
 
@@ -265,4 +271,43 @@ function blogDataContent(obj){
 }
 
 //console.log(blogDataContent(blogData));
+//blogDataContent(blogData);
 ///////////////////////////////////////////////////////////////
+
+
+function createCommentsTable(){
+    
+    let authorsArr=commentDataAuthor(blogData);
+    let datesArr=commentDataDate(blogData);
+    let likeCountsArr=commentDataLikeCount(blogData);
+    let contentsArr=commentDataContent(blogData);
+
+    
+    for (let i=0;i<4;i++) {
+                    
+            
+    let row= document.createElement("tr");
+    commentsTable.appendChild(row);
+            
+    let authorCell=document.createElement("td");
+    let dateCell=document.createElement("td");
+    let likeCountsCell=document.createElement("td");
+    let commentCell=document.createElement("td");
+    
+    row.appendChild(authorCell);
+    row.appendChild(dateCell);
+    row.appendChild(likeCountsCell);
+    row.appendChild(commentCell);
+    
+    authorCell.innerHTML= authorsArr[i];
+    dateCell.innerHTML=datesArr[i];
+    likeCountsCell.innerHTML=likeCountsArr[i];
+    commentCell.innerHTML=contentsArr[i];
+    
+    }
+    
+    
+    }
+    
+    
+    createCommentsTable();

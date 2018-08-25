@@ -81,3 +81,8 @@ body{
 img{
     height:150px;
 }
+.column.low {
+    width: 20%;
+    text-align: center;
+    font-size: 30px;
+}

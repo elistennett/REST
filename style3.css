@@ -11,6 +11,10 @@ body{
     font-size: 60px;
 }
 
+h2{
+    text-align: center;
+}
+
 /* The navbar container */
 .topnav {
     overflow: hidden;
@@ -60,8 +64,8 @@ body{
 /* Middle column */
 .column.middle {
     width: 50%;
-    height: 800px;
-    text-align: center;
+    height: 2200px;
+    text-align: auto;
 }
 
 /* Clear floats after the columns */
@@ -85,4 +89,5 @@ img{
     width: 20%;
     text-align: center;
     font-size: 30px;
+    overflow: scroll;
 }

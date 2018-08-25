@@ -1,19 +1,51 @@
-title{
+h1{
     font: color #5e6572;
+    font-family: 'Audiowide', cursive;
+    text-align: center;
 }
 body{
     background-color: #a9b4c2;
-    font-color: #1c2321;
+    color: #1c2321;
 }
-menuSidebar{
+.sidebar-main{
     background-color: #eef1ef;
-    font-color: #7D98A1;
+    font-size: 48px;
+    color: #7D98A1;
+    border-style: solid;
+    padding: 20px;
+    width:15%;
+    height: 300px;
+    margin: center-left;
+    margin: 20px;
+    text-align: center;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
-bioSidebar{
+.sidebar-bio{
     background-color: #eef1ef;
-    font-color: #7D98A1;
+    font-size: 48px;
+    color: #7D98A1;
+    border-style: solid;
+    padding: 20px;
+    width:15%;
+    height: 300px;
+    margin: center-left;
+    margin: 20px;
+    align-content: center;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
-commentSideBar{
+.sidebar-comment{
     background-color: #eef1ef;
-    font-color: #7D98A1;
+    font-size: 48px;
+    color: #7D98A1;
+    border-style: solid;
+    padding: 20px;
+    width:15%;
+    height: 300px;
+    margin: center-left;
+    margin: 20px;
+    align-content: center;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }

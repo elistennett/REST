@@ -3,6 +3,7 @@ h1{
     font-family: 'Armata', sans-serif;
     text-align: center;
     font-size: 48px;
+    text-decoration: underline;
 }
 body{
     background-color: #a9b4c2;
@@ -17,11 +18,13 @@ body{
     padding: 20px;
     width:15%;
     height: 800px;
-    margin: center-left;
     margin: 20px;
     text-align: auto;
     opacity: 0.5;
     filter: alpha(opacity=50);
+}
+a{
+    text-decoration: none;
 }
 .sidebar-bio{
     background-color: #eef1ef;
@@ -31,15 +34,15 @@ body{
     border-style: solid;
     padding: 20px;
     width:15%;
-    height: 300px;
-    margin: right;
+    height: 200px;
     margin: 20px;
     text-align: auto;
     opacity: 0.5;
     filter: alpha(opacity=50);
     position: relative;
-    left: 1200px;
+    left: 1050px;
     top: -870px;
+    height: px;
 }
 .sidebar-comment{
     background-color: #eef1ef;
@@ -49,21 +52,22 @@ body{
     border-style: solid;
     padding: 20px;
     width:15%;
-    height: 400px;
+    height: 500px;
     margin: right;
     margin: 20px;
     text-align: center;
     opacity: 0.5;
     filter: alpha(opacity=50);
     position: relative;
-    left: 1200px;
+    left: 1050px;
     top: -870px;
 }
-
+img{
+    height: 65px;
+}
 footer{
     text-align:center;
 }
-
 ul{
     list-style: none;
 }

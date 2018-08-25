@@ -101,3 +101,168 @@ const blogData = {
         }
     ]
 }
+
+
+function commentDataAuthor (obj){
+
+    let authors=[];
+    
+
+
+    for (let key1 in obj){
+
+        if (key1==="comments"){
+
+            for (let i=0;i<obj[key1].length;i++){
+
+                for (let key2 in obj[key1][i]){
+
+                    if (key2==="author")
+                        {authors.push(obj[key1][i][key2]);}
+
+                }
+
+            }
+
+
+        }
+
+    }
+
+    return authors;
+
+}
+// console.log(commentDataAuthor(blogData));
+///////////////////////////////////////////////////////////////////////////
+
+
+function commentDataDate (obj){
+
+    let dates=[];
+     
+
+
+    for (let key1 in obj){
+
+        if (key1==="comments"){
+
+            for (let i=0;i<obj[key1].length;i++){
+
+                for (let key2 in obj[key1][i]){
+
+                    if (key2==="date")
+                        {dates.push(obj[key1][i][key2]);}
+
+                }
+
+            }
+
+
+        }
+
+    }
+
+    return dates;
+
+}
+// console.log(commentDataDate(blogData));
+///////////////////////////////////////////////////////////////////////////////////
+
+
+function commentDataLikeCount (obj){
+
+    let likeCounts=[];
+     
+
+
+    for (let key1 in obj){
+
+        if (key1==="comments"){
+
+            for (let i=0;i<obj[key1].length;i++){
+
+                for (let key2 in obj[key1][i]){
+
+                    if (key2==="likeCount")
+                        {likeCounts.push(obj[key1][i][key2]);}
+
+                }
+
+            }
+
+
+        }
+
+    }
+
+    return likeCounts;
+
+}
+// console.log(commentDataLikeCount(blogData));
+///////////////////////////////////////////////////////////////////////////////////
+
+
+function commentDataContent (obj){
+
+    let contents=[];
+     
+
+
+    for (let key1 in obj){
+
+        if (key1==="comments"){
+
+            for (let i=0;i<obj[key1].length;i++){
+
+                for (let key2 in obj[key1][i]){
+
+                    if (key2==="content")
+                        {contents.push(obj[key1][i][key2][0]);}
+
+                }
+
+            }
+
+
+        }
+
+    }
+
+    return contents;
+
+}
+// console.log(commentDataContent(blogData));
+///////////////////////////////////////////////////////////////////////////////////
+
+
+function blogDataContent(obj){
+
+    let blogContents=[];
+
+    for (let key1 in obj){
+
+        if (key1==="content"){
+
+            for (let i=0;i<obj[key1].length;i++){
+
+                for (let key2 in obj[key1][i]){
+
+                    {blogContents.push(obj[key1][i][key2]);}
+
+                }
+
+            }
+
+
+        }
+
+    }
+
+
+
+
+    return blogContents;
+}
+
+//console.log(blogDataContent(blogData));
+///////////////////////////////////////////////////////////////
